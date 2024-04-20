@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="swipeView" format="reference" />
+    <declare-styleable name="SwipeRevealLayout">
+        <attr name="swipeView" />
+        <attr name="allowOverSwipe" format="boolean" />
+        <attr name="swipeRevealMode" format="enum">
+            <enum name="openFromRightEdge" value="0" />
+            <enum name="openFromLeftEdge" value="1" />
+            <enum name="openFromBothEdge" value="2" />
+        </attr>
+        <attr name="setLeft_openPosition_toRightOf" format="reference" />
+        <attr name="setRight_openPosition_toLeftOf" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="SwipeRevealLayout_Layout">
+        <attr name="android:layout_gravity" />
+    </declare-styleable>
+
+    <declare-styleable name="SwipeToDismissLayout">
+        <attr name="swipeView" />
+    </declare-styleable>
+
+    <declare-styleable name="SwipeToDismissLayout_Layout">
+        <attr name="android:layout_gravity" />
+    </declare-styleable>
+</resources>
